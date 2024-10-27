@@ -1,0 +1,76 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Replace with a non-default font if desired */
+    background-color: white;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+}
+
+nav h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(115, 3, 252);
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+}
+
+p, ul, figcaption {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+figure img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+a {
+    color: rgb(115, 3, 252);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}
